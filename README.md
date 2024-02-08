@@ -1,7 +1,7 @@
 ### Identify Stars in Wide-Angle Images with Crop-Wise Resolution
 ## Locate stars and pinpoint their positions in your wide-angle sky images with this Python program!
 
-This tool leverages the power of nova.astrometry.net and the Client.py service from the "astrometry.net" repository (created by "dstndstn/astrometry.net").
+This tool leverages the power of nova.astrometry.net and the `Client.py` service from the "astrometry.net" repository (created by "dstndstn/astrometry.net" ([https://github.com/dstndstn/astrometry.net](https://github.com/dstndstn/astrometry.net))).
 
 # Key Features:
 * Wide-Angle Support: Conquer those panoramic images by intelligently cropping them into smaller regions perfect for nova.astrometry.net.
@@ -13,7 +13,7 @@ This tool leverages the power of nova.astrometry.net and the Client.py service f
 * Comprehensive folder with cropped regions, sent data, filtered coordinates, and more.
 * Visualized cropped regions overlaid on the original image.
 
-#Get Started:
+# Get Started:
 * Secure your API access: Create a free account at nova.astrometry.net and obtain your personal API password. 
 * Clone this repository: Grab the code from GitHub and install the required libraries.
 * Run the program: Enter your API password when prompted.
@@ -40,12 +40,12 @@ The mentioned original repository code used in this project is subject to the fo
 
 I have made specific modifications to the following files in the original repository:
 
-* `client.py` (here presented as client_OriginalFrom_astronomy-net.py, being 'Client.py' the modified version): 
-1- The print statements in the second file (Client.py) have mostly been commented out, so there will be less output when running it.
-2- There is a new optional argument added in _get_upload_args in Client.py: use_sextractor. This allows specifying whether to use SExtractor for source extraction.
-3- The sub_status method in Client.py returns the full result dictionary, not just the status.
+* `client.py` (here presented as `client_OriginalFrom_astronomy-net.py`, being `'Client.py'` the modified version): 
+1- The print statements in the modified file (`Client.py`) have mostly been commented out, so there will be less output when running it.
+2- There is a new optional argument added in _get_upload_args in `Client.py`: use_sextractor. This allows specifying whether to use SExtractor for source extraction.
+3- The sub_status method in `Client.py` returns the full result dictionary, not just the status.
 4- The annotate_data method is new in Client.py. It retrieves the annotation data for a given job ID.
-5- The jobs_by_tag method in Client.py takes an additional "exact" parameter to control whether an exact tag match is required.
+5- The jobs_by_tag method in `Client.py` takes an additional "exact" parameter to control whether an exact tag match is required.
 6- Some minor code formatting changes like spacing around operators.
 Other than that the core functionality is the same. The changes mainly add some optional new parameters and retrieve additional data from the API.
 
