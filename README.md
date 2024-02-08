@@ -1,9 +1,9 @@
-### Identify Stars in Wide-Angle Images with Crop-Wise Resolution
+# Identify Stars in Wide-Angle Images with Crop-Wise Resolution
 ## Locate stars and pinpoint their positions in your wide-angle sky images with this Python program!
 
 This tool leverages the power of nova.astrometry.net and the `Client.py` service from the "astrometry.net" repository (created by "dstndstn/astrometry.net" ([https://github.com/dstndstn/astrometry.net](https://github.com/dstndstn/astrometry.net))).
 
-# Key Features:
+### Key Features:
 * Wide-Angle Support: Conquer those panoramic images by intelligently cropping them into smaller regions perfect for nova.astrometry.net.
 * Batch Processing: Tackle single images or entire folders of PNG, JPG, and FITS files (FITS support currently under testing).
 * Detailed Output: Dive into per-image results with:
@@ -13,14 +13,14 @@ This tool leverages the power of nova.astrometry.net and the `Client.py` service
 * Comprehensive folder with cropped regions, sent data, filtered coordinates, and more.
 * Visualized cropped regions overlaid on the original image.
 
-# Get Started:
+### Get Started:
 * Secure your API access: Create a free account at nova.astrometry.net and obtain your personal API password. 
 * Clone this repository: Grab the code from GitHub and install the required libraries.
 * Run the program: Enter your API password when prompted.
 * Choose your files: Select single images or entire folders for processing.
 * Explore the results: Each image gets its own dedicated folder showcasing the analysis.
 
-# Important Notes:
+### Important Notes:
 * FITS format support is still undergoing testing.
 
 
