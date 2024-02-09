@@ -7,11 +7,11 @@ This tool leverages the power of nova.astrometry.net and the `Client.py` service
 * Wide-Angle Support: Conquer those panoramic images by intelligently cropping them into smaller regions perfect for nova.astrometry.net.
 * Batch Processing: Tackle single images or entire folders of PNG, JPG, and FITS files (FITS support currently under testing).
 * Detailed Output: Dive into per-image results with:
-* Original image copy.
-* Overlaid image highlighting identified stars (brighter to fainter).
-* Text file detailing object data (coordinates, variance, magnitude).
-* Comprehensive folder with cropped regions, sent data, filtered coordinates, and more.
-* Visualized cropped regions overlaid on the original image.
+  * Original image copy.
+  * Overlaid image highlighting identified stars (brighter to fainter).
+  * Text file detailing object data (coordinates, variance, magnitude).
+  * Comprehensive folder with cropped regions, sent data, filtered coordinates, and more.
+  * Visualized cropped regions overlaid on the original image.
 
 ### Get Started:
 * Secure your API access: Create a free account at nova.astrometry.net and obtain your personal API password. 
